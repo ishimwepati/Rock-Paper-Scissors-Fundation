@@ -21,11 +21,19 @@ function getComputerChoice (computerAnswer)
 
 // Function that will determine the winner
 function playRound(playerSelection, computerSelection) {
-    // your code here!
+    if  (
+        (player === 'ROCK' && computer === 'SCISSOR') ||
+        (player === 'SCISSOR' && computer === 'PAPER') ||
+        (player === 'PAPER' && computer === 'ROCK')
+        )
+        {
+        console.log('You are a Winner you played', player ,'and Computer played', computer);
+        console.log('Congratutaltions')
+        }
+
   }
-   
-  const playerSelection = "rock";
-  const computerSelection = getComputerChoice();
+  const playerSelection = player;
+  const computerSelection = computer;
   console.log(playRound(playerSelection, computerSelection));
 
 
