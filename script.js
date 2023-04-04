@@ -1,6 +1,6 @@
 console.log("Rock Scissor Paper Game by WazaCode")
 
-let player = "";
+let player = "".toUpperCase();
 let computer = "";
 let winner = "";
 
