@@ -44,7 +44,7 @@ function playRound(playerSelection, computerSelection) {
         console.log('One Point ot each one You and the Computer!!!')
     }
     else {
-        console.log('We dont recognise your input')
+        console.log('We dont recognise your input, PLEASE selected between :\n ROCK, PAPER, SCISSOR')
     }
 
   }
