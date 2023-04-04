@@ -17,7 +17,11 @@ function getComputerChoice (computerAnswer)
 
 // Getting user's answer
     player = prompt("What are you playing, ROCK, SCISSOR or PAPER");
-    console.log(player);
+    console.log('You played :', player);
 
+// Function that will determine the winner
+function round(){
+    
+}
 
 
