@@ -26,10 +26,22 @@ function playRound(playerSelection, computerSelection) {
         (player === 'SCISSOR' && computer === 'PAPER') ||
         (player === 'PAPER' && computer === 'ROCK')
         )
-        {
-        console.log('You are a Winner you played', player ,'and Computer played', computer);
-        console.log('Congratutaltions')
-        }
+            {
+            console.log('You are a Winner you played', player ,'and Computer played', computer);
+            console.log('Congratutaltions')
+            }
+    
+    if (  (computer === 'ROCK' && player === 'SCISSOR') ||
+          (computer === 'SCISSOR' && player === 'PAPER') ||
+          (computer === 'PAPER' && player === 'ROCK')
+          )
+            {
+            console.log('You are a looser, you played : ', player ,'and Computer played', computer);
+            console.log('Sorry You HAVE FAILED !!!')
+            }
+    if (player = computer){
+        console.log('It is a draw')
+    }
 
   }
   const playerSelection = player;
