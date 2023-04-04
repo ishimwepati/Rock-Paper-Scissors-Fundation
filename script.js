@@ -20,8 +20,12 @@ function getComputerChoice (computerAnswer)
     console.log('You played :', player);
 
 // Function that will determine the winner
-function round(){
-    
-}
+function playRound(playerSelection, computerSelection) {
+    // your code here!
+  }
+   
+  const playerSelection = "rock";
+  const computerSelection = getComputerChoice();
+  console.log(playRound(playerSelection, computerSelection));
 
 
