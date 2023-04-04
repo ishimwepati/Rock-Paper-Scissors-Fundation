@@ -41,6 +41,7 @@ function playRound(playerSelection, computerSelection) {
             }
     if (player = computer){
         console.log('It is a draw')
+        console.log('One Point ot each one You and the Computer!!!')
     }
 
   }
