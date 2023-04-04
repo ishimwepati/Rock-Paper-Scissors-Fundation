@@ -1,7 +1,7 @@
 console.log("Rock Scissor Paper Game by WazaCode")
 
-let Player = '';
-let Computer = '';
+let player = '';
+let computer = '';
 let winner = '';
 
 function getComputerChoice (computerAnswer)
@@ -10,6 +10,14 @@ function getComputerChoice (computerAnswer)
     }
     let computerAnswer = ['ROCK', 'PAPER', 'SCISSOR'];
 
-    Computer = getComputerChoice(computerAnswer);
-    console.log('Computer played :', Computer);
+//Assigning the functionValue to a variable Computer
+
+    computer = getComputerChoice(computerAnswer);
+    console.log('Computer played :', computer);
+
+// Getting user's answer
+    player = prompt("What are you playing, ROCK, SCISSOR or PAPER");
+    console.log(player);
+
+
 
