@@ -1,8 +1,8 @@
 console.log("Rock Scissor Paper Game by WazaCode")
 
-let player = '';
-let computer = '';
-let winner = '';
+let player = "";
+let computer = "";
+let winner = "";
 
 function getComputerChoice (computerAnswer)
     {
@@ -39,9 +39,12 @@ function playRound(playerSelection, computerSelection) {
             console.log('You are a looser, you played : ', player ,'and Computer played', computer);
             console.log('Sorry You HAVE FAILED !!!')
             }
-    if (player = computer){
+    if (player === computer){
         console.log('It is a draw')
         console.log('One Point ot each one You and the Computer!!!')
+    }
+    else {
+        console.log('We dont recognise your input')
     }
 
   }
