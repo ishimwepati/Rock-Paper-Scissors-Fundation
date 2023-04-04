@@ -2,7 +2,6 @@ console.log("Rock Scissor Paper Game by WazaCode")
 
 let input = "";
 let computer = "";
-let winner = "";
 
 function getComputerChoice (computerAnswer)
     {
@@ -20,7 +19,7 @@ function getComputerChoice (computerAnswer)
     console.log('You played :', input.toUpperCase());
 
     let player = input.toUpperCase();
-    
+
 // Function that will determine the winner
 function playRound(playerSelection, computerSelection) {
     if  (
