@@ -31,7 +31,7 @@ function playRound(playerSelection, computerSelection) {
             console.log('Congratutaltions')
             }
     
-    if (  (computer === 'ROCK' && player === 'SCISSOR') ||
+   else if (  (computer === 'ROCK' && player === 'SCISSOR') ||
           (computer === 'SCISSOR' && player === 'PAPER') ||
           (computer === 'PAPER' && player === 'ROCK')
           )
@@ -39,7 +39,7 @@ function playRound(playerSelection, computerSelection) {
             console.log('You are a looser, you played : ', player ,'and Computer played', computer);
             console.log('Sorry You HAVE FAILED !!!')
             }
-    if (player === computer){
+    else if(player === computer){
         console.log('It is a draw')
         console.log('One Point ot each one You and the Computer!!!')
     }
