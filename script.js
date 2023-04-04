@@ -4,11 +4,11 @@ const Player = '';
 const Computer = '';
 const winner = '';
 
-function playRound(ROCK, PAPER, SCISSOR){
+function getComputerChoice (computerAnswer)
+    {
+    return computerAnswer[Math.floor(Math.random()*computerAnswer.length)] 
+    }
+    let computerAnswer = ['ROCK', 'PAPER', 'SCISSOR'];
+    console.log(getComputerChoice(computerAnswer));
 
-}
 
-function getComputerChoice (Rock, Paper, Scissors){
-
-    return 
-}
